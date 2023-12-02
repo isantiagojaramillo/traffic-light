@@ -1,0 +1,36 @@
+button {
+  background-color: #E07BE0;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 15px;
+  width: 200px;
+  height: 100px;
+}
+
+button:hover {
+  background-color: #932F6D;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.traffic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
